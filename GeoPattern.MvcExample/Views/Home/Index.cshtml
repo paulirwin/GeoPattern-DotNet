@@ -1,0 +1,16 @@
+﻿@{
+    Layout = null;
+    var hex = new Dictionary<string, string> {
+      { "generator", "Hexagons"},
+      { "color", "#939c3c"}
+    };
+}
+
+<html>
+<head>
+    <title>GeoPattern Examples</title>
+</head>
+<body>
+    <div style="background: @GeoPattern.GeoPatternGenerator.UriImage(hex); width: 500px; height: 500px"></div>
+</body>
+</html>
